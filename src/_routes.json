@@ -1,0 +1,28 @@
+[
+  {
+    "path": "/",
+    "exact": "true",
+    "component": "./src/pages/_layout",
+    "routes": []
+  },
+  {
+    "path": "/users",
+    "component": "./src/pages/users/_layout",
+    "routes":[
+      {
+        "path":"/users/posts",
+        "component":"./src/pages/posts/_layout",
+        "routes":[
+          {
+            "path":"/users/posts/post",
+            "component":"./src/pages/post/index"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "path": "/404",
+    "component": "./src/pages/404"
+  }
+]

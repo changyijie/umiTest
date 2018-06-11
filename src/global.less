@@ -1,0 +1,148 @@
+
+html,#root{
+  background: #EFEFEF;
+  min-width: 1260px;
+  height: 100%;
+}
+#root>div{
+  height: 100%;
+}
+ul,li{
+  list-style: none;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+@font-face {font-family: "iconfont";
+  src: url('./assets/iconfont/iconfont.eot?t=1488936599612'); /* IE9*/
+  src: url('./assets/iconfont/iconfont.eot?t=1488936599612#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./assets/iconfont/iconfont.woff?t=1488936599612') format('woff'), /* chrome, firefox */
+  url('./assets/iconfont/iconfont.ttf?t=1488936599612') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./assets/iconfont/iconfont.svg?t=1488936599612#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+//通用字体
+.textLeft{
+  text-align: left;
+}
+.textRight{
+  text-align: right;
+}
+//table
+.ant-table-thead > tr > th,.ant-table-thead > tr, .ant-table-tbody > tr{
+  text-align: center;
+}
+.ant-table-bordered .ant-table-thead > tr > th{
+  text-align: center;
+}
+
+//Divder
+.ant-divider, .ant-divider-vertical{
+  margin: 0 5px;
+}
+
+//页面公共样式
+.layHead,.layMiddle{
+  margin: 10px;
+  padding: 10px;
+  background: #FFFFFF;
+}
+.layHead{
+  height: 100px;
+}
+.layMiddle{
+  background: #FFFFFF;
+  position: relative;
+}
+.treeDiv{
+  background: #F9F9F9;
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  float: left;
+  width: 320px;
+  height: 100%;
+  padding: 10px;
+  overflow: auto;
+}
+.btnGroup button:not(:last-child){
+  margin-right: 10px;
+}
+
+
+//tooltip
+.tooltip>div>div:nth-child(1),
+.pcTooltip>div>div:nth-child(1){
+  border-bottom-color: #666;
+}
+.tooltip>div>div:nth-child(2),
+.pcTooltip>div>div:nth-child(2){
+  background: #FFFFFF;
+  max-height: 1000px;
+  max-width:10000px;
+  padding-bottom: 61px;
+  color:#666;
+}
+.imgToolip>div>div:nth-child(2){
+  background: #FFFFFF;
+  max-height: 1000px;
+  max-width:10000px;
+  color:#666;
+}
+.pcTooltip{
+  top: 487px;
+}
+
+
+//分页始终保持在最下
+.pagination{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+//ckeditor
+.cke_editable{
+  border: 1px solid #d9d9d9;
+}
+
+//右面 切换标签样式
+.label{
+  position: absolute;
+  height: 100%;
+  border-left: 1px solid #EDEDED;
+  margin-right: 13px;
+  top: 115px;
+  right: 0;
+}
+.label a{
+  text-align: center;
+  padding: 32px 10px 22px 10px;
+  font-size: 18px;
+  display: block;
+}
+.label a:hover{
+  color: #fff;
+}
+.labelactive{
+  color: #ffffff;
+  background: #02A5DD;
+  border: 2px solid #EDEDED;
+  border-bottom-right-radius: 29px;
+  border-top-right-radius: 9px;
+
+}
+.labelnomal{
+  color: #FF5500;
+  background: #F9F9F9;
+  border:2px solid #EDEDED;
+  border-bottom-right-radius: 29px;
+  border-top-right-radius: 9px;
+}

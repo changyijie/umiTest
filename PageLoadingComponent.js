@@ -1,0 +1,1 @@
+export default () => <div style={{height:'100%',textAlign:'center',}}><img src="./src/assets/loadingPage.gif" alt="loading" /><h3 style={{lineHeight:'130px',textAlign:'center',color:'#000000'}}><strong>正在跳转</strong>...</h3></div>
